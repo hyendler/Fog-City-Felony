@@ -1,0 +1,79 @@
+@font-face {
+	font-family: "Bazar";
+	src: url("fonts/Bazar.ttf");
+}
+
+body {
+	background-image: url('../img/fogcity2.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: "Bazar", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+/*p {
+	text-indent: 50px;
+}*/
+
+#title-box {
+	float: right;
+	padding-right: 100px;
+}
+
+#title-box h1 {
+	font-size: 4em;
+	text-shadow: 3px 3px 4px gray;
+	color: #ac4139;
+	margin-bottom: .4em;
+}
+
+#title-box h3 {
+	text-align: right;
+	color: #383838;
+	font-size: 1.5;
+	
+}
+
+button {
+	color: #383838;
+	border-radius: 10px;
+	font-size: 1.5em;
+	padding: 0px .5em;
+}
+
+button h2 {
+	-webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+}
+
+button:hover {
+
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#story-box.appear {
+	background-color: #fcfaf2;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	box-shadow: 0 0 15px 20px #fcfaf2;
+	border-radius: 5px;
+	padding: 0px 15px;
+	font-size: 18px;
+}
+
+
+
+
+
+
